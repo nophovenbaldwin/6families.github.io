@@ -16,6 +16,16 @@ body {
 	height: 120px;
 	background-color: #8498BA;
 	color: #BEC2A9;
+	text-decoration: none;
+}
+
+#header a:link, a:visited {
+    background-color: #8498BA;
+    color: #BEC2A9;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 #main {
@@ -35,7 +45,7 @@ body {
 	text-transform: uppercase;
 }
 
-#email{
+#email {
 	float:right;
 	margin-right: 5px;
 	padding-top: 5px;
