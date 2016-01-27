@@ -82,5 +82,5 @@ body {
 }
 
 #main p {
-	background: white;
+	text-transform: lowercase;
 }
