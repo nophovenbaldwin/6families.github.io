@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="six.css"/>
+		<title><a href="home.html">Six Families</a></title>
+	</head>
+	<body>
+		<div id="header">
+			<h1 id="title">Six Families</h1>
+			<div id="menu">
+				<ul>
+				  <li><a href="abt.html">| abt |</a></li>
+				  <li><a href="http://sixfamilies.tumblr.com">| writngs |</a></li>
+				  <li><a href="http://soundcloud.com/six-families">| recrdngs |</a></li>
+				  <li><a href="contact.html">| frnds & nghbrs |</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="main">
+			<p>Six Families is a collection of musicians that aims to create opportunities for both performers and listeners to participate in honest, thoughtful, and compelling experiences relating to sound/silence/song.. Six Families was created because good music exists in all communities. We aim to equalize the presentation of worthy music (both old and new), to honor the tradition it comes from, and to create opportunity for those traditions to evolve. The organization has over a year of experience in music programming in which it has engaged audiences and artists with a unique and challenging creative music experience. </p>
+		</div>
+
+	</body>
+</html>
