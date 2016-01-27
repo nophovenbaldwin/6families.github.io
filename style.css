@@ -1,0 +1,86 @@
+/* Sets up the main divisions of the page */
+body {
+	font-family: "Futura", "Helvetica Neue Light","Helvetica","Arial",sans-serif;
+	margin:0;
+	margin-top:10px;
+	color:#444;
+	padding-bottom: 40px;
+	font-size:15px;
+	background:#BEC2A9;
+}
+
+#header {
+	position: fixed;
+	width: 100%;
+	margin-top: -20px;
+	height: 120px;
+	background-color: #8498BA;
+	color: #BEC2A9;
+}
+
+#main {
+	position: relative;
+	float: left;
+	margin-top: 120px;
+	margin-left: 30px;
+	width: 600px;
+	color: #8498BA;
+}
+
+#title {
+	float:left;
+	margin-left: 5px;
+	padding-top: 5px;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+#email{
+	float:right;
+	margin-right: 5px;
+	padding-top: 5px;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 70px;
+}
+
+#menu li {
+    float: left;
+    padding: 10px;
+}
+
+#menu li a {
+    text-align: left;
+    text-decoration: none;
+    color: #BEC2A9;
+    text-transform: lowercase;
+}
+
+#menu li a:hover {
+	color: red;
+}
+
+#main ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 30px;
+}
+
+#main a {
+	text-decoration: none;
+	color: #8498BA;
+}
+
+#main a:hover {
+	font-style: italic;
+	padding-left: 5px;
+}
+
+#main p {
+	background: white;
+}
