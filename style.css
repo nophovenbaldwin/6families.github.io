@@ -2,14 +2,14 @@
 body {
 	font-family: "Futura", "Helvetica Neue Light","Helvetica","Arial",sans-serif;
 	margin:0;
-	margin-top:120px;
+	margin-top:10px;
 	color:#444;
 	padding-bottom: 40px;
 	font-size:15px;
 	background:#BEC2A9;
 	border-left-color:#8498BA;
 	border-left-style:dotted;
-	border-left-width:20px;
+	border-left-width:10px;
 }
 
 #header {
