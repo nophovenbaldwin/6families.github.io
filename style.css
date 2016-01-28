@@ -94,3 +94,7 @@ body {
 #main p {
 	text-transform: lowercase;
 }
+
+.tumblr_posts {
+	padding-top:125px;
+}
