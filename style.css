@@ -35,7 +35,6 @@ body {
 	margin-left: 30px;
 	width: 600px;
 	color: #8498BA;
-	padding-top: 120px;
 }
 
 #title {
@@ -94,4 +93,9 @@ body {
 
 #main p {
 	text-transform: lowercase;
+}
+
+#tumblr_post {
+	padding-top: 120px;
+}
 }
