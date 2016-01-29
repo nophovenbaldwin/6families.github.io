@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+		<title>Six Families</title>
+	</head>
+	<body>
+		<div id="header">
+			<h1 id="title"><a href="index.html">Six Families</a></h1>
+			<div id="menu">
+				<ul>
+				  <li><a href="abt.html">| abt |</a></li>
+				  <li><a href="writngs.html">| writngs |</a></li>
+				  <li><a href="recrdngs.html">| recrdngs |</a></li>
+				  <li><a href="contact.html">| frnds & nghbrs |</a></li>
+				</ul>
+			</div>
+		</div>
+<p>
+	<img src="https://cloud.githubusercontent.com/assets/16598591/12647526/34417054-c59b-11e5-8e7c-4e355b23afd4.jpg">
+</p>
+
+</body>
+</html>
