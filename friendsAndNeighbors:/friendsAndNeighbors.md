@@ -1,7 +1,7 @@
 ---
 layout: page
-title: frnds & nghbrs
-permalink: /frndsNnghbrs/
+title: friends & neighbors
+permalink: /friendsAndNeighbors/
 ---
 
 <ul style="list-style: none;">
