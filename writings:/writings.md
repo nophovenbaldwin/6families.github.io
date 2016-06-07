@@ -1,7 +1,7 @@
 ---
 layout: default
-title: writngs
-permalink: /writngs/
+title: writings
+permalink: /writings/
 ---
 
 <div class="home">
