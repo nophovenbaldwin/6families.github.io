@@ -1,9 +1,44 @@
 ---
 layout: default
+soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/250564223
+
 ---
 
 <div class="home">
 
-<p><img src="/img/shapes.jpg"></p>
+    <h2>Sounds</h2>
+    <ul style="list-style: none;">
+        <li><a href="https://soundcloud.com/six-families">soundcloud</a></li>
+        <iframe width="100%" height="120" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/197903761&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+        <li><a href="https://6families.bandcamp.com">bandcamp</a></li>
+        <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=70804827/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://6families.bandcamp.com/album/b-tes-blanches-au-caf">Bêtes blanches—au café by Bêtes Blanches</a></iframe>
+
+    </ul>
+
+    <h2>Happenings</h2>
+    <h4>Soon</h4>
+        <ul>
+            <li>This is coming up</li>
+        </ul>
+    <h4>Past</h4>
+    <ul>
+        {% for event in site.data.events %}
+        <li>
+            {{ event.date }} - <b> {{ event.title }} </b> {{ event.place }}
+        </li>
+        {% endfor %}
+    </ul>
+
+    <h2>Friends</h2>
+    <ul style="list-style: none;">
+        {% for frnd in site.data.frnds %}
+        <li>
+            <a href="{{ frnd.link }}">
+                {{ frnd.name }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
 
 </div>
