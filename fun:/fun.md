@@ -4,4 +4,6 @@ title: fun
 permalink: /fun/
 ---
 
-<canvas id="canvas" style="border:1px solid #000000;"></canvas>
+<canvas id="canvas"></canvas>
+
+<img id="six" src="../img/shapes.jpg" style="display: none;" />
